@@ -1,0 +1,131 @@
+{
+  "configVersion": 1,
+  "timestamp": 1576566285656,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/6-es2015.f7a756255e0fba247332.js",
+        "/7-es2015.ae38d3c7dee9fb35a324.js",
+        "/common-es2015.e3d6bf4f15060ceebcf1.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.ad056dde468f54a042e4.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.79b5019f4dff069483c4.js",
+        "/runtime-es2015.75e37fb99ed3d77a1ce5.js",
+        "/styles.d9dc716df0c684d997ec.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/s\\/.*"
+      ]
+    },
+    {
+      "name": "assets-eager",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/6-es5.f7a756255e0fba247332.js",
+        "/7-es5.ae38d3c7dee9fb35a324.js",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-256x256.png",
+        "/assets/icons/icon-32x32.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/images/clear-day.svg",
+        "/assets/images/clear-night.svg",
+        "/assets/images/cloudy.svg",
+        "/assets/images/fog.svg",
+        "/assets/images/partly-cloudy-day.svg",
+        "/assets/images/partly-cloudy-night.svg",
+        "/assets/images/rain.svg",
+        "/assets/images/sleet.svg",
+        "/assets/images/snow.svg",
+        "/assets/images/thunderstorm.svg",
+        "/assets/images/tornado.svg",
+        "/assets/images/wind.svg",
+        "/common-es5.e3d6bf4f15060ceebcf1.js",
+        "/main-es5.ad056dde468f54a042e4.js",
+        "/polyfills-es5.5e48fa3dc66991f311b0.js",
+        "/runtime-es5.75e37fb99ed3d77a1ce5.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "dark-sky-api",
+      "patterns": [
+        "https:\\/\\/cors-anywhere\\.herokuapp\\.com\\/https:\\/\\/api\\.darksky\\.net\\/forecast\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 43200000,
+      "timeoutMs": 3000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/6-es2015.f7a756255e0fba247332.js": "f08cdd41a866a3c228afec7ec76d9552abce7c2e",
+    "/6-es5.f7a756255e0fba247332.js": "7a216e7b985945fac220b53c3a2af1998c401386",
+    "/7-es2015.ae38d3c7dee9fb35a324.js": "d187fed100de1f1482d66aadeec09688e92360ff",
+    "/7-es5.ae38d3c7dee9fb35a324.js": "61b4684bd2883abafc0a05009126a075e3c398a7",
+    "/assets/icons/icon-128x128.png": "e6a13bb219a39e30243665f7d995e428a6b8dbb4",
+    "/assets/icons/icon-144x144.png": "af4927a04c056a0755380c4f160fb3e5f0b69a5d",
+    "/assets/icons/icon-152x152.png": "28eb7f712124e1e2ad97c51aab0db42211186639",
+    "/assets/icons/icon-192x192.png": "53f09cef6c4b3220b1a87d0bc1a62a206cae0df9",
+    "/assets/icons/icon-256x256.png": "a45cbf11874207c238259e9c3d4f1b3386f1364b",
+    "/assets/icons/icon-32x32.png": "fbe17518c6d80ce0b1993bf81f8642265eb7add7",
+    "/assets/icons/icon-512x512.png": "93ccfd7611f6968c8c670c96919b08b3be0a3e1f",
+    "/assets/icons/icon-72x72.png": "141113fcc9b7b625026ec88de38df584bb7d41f3",
+    "/assets/images/clear-day.svg": "e1b9d30e48daec11ccde841b2b6b5a300e17ed22",
+    "/assets/images/clear-night.svg": "34f6de8fecbc523612976044459b83ac46df6afd",
+    "/assets/images/cloudy.svg": "796500cc191d754a05791df9fc4a3cfc763c73ab",
+    "/assets/images/fog.svg": "51a103472f302e1b812291a0b034eb1b91c7a773",
+    "/assets/images/partly-cloudy-day.svg": "551ff511f6e0d20f3d8e2fbbfe8b321f75bd72d2",
+    "/assets/images/partly-cloudy-night.svg": "d00d24311fb97610b0cdf997f8e79924df0fb91d",
+    "/assets/images/rain.svg": "6799555a4a156b308f537f6a2c86eef9ec20d340",
+    "/assets/images/sleet.svg": "c882ac123223e4f3db7ea2538086b1450fdff84a",
+    "/assets/images/snow.svg": "e1f5de346e594e97af1eb87926076ba65d36811f",
+    "/assets/images/thunderstorm.svg": "f759c930bd938cfa531ff83f94f657c11cb7e2f9",
+    "/assets/images/tornado.svg": "0f06cc334f7677304abdbc9b1cfe9532ef29f109",
+    "/assets/images/wind.svg": "73a9042188983c7ba55230c345cc257757ec09a3",
+    "/common-es2015.e3d6bf4f15060ceebcf1.js": "638c40243ac391efed26bffbb1d922794842eb87",
+    "/common-es5.e3d6bf4f15060ceebcf1.js": "f9183903f3588ec4e1e6a69c2e01a28d905826b2",
+    "/favicon.ico": "b42414b2995df9d2d9403e893a4245b992f28545",
+    "/index.html": "0b706fa011b73abc4ab24a19c8f0b8102d713aca",
+    "/main-es2015.ad056dde468f54a042e4.js": "6429a20b28170224583441fcded0a4e7cd3e44c9",
+    "/main-es5.ad056dde468f54a042e4.js": "b6b10dee781d77b9cbd82867e54f846736161dc8",
+    "/manifest.webmanifest": "abdec98a8c0fe2741e9956788025864285279cfb",
+    "/polyfills-es2015.79b5019f4dff069483c4.js": "4475b4672a9d4d6d52c5f786ab4d627e9cabb16f",
+    "/polyfills-es5.5e48fa3dc66991f311b0.js": "0c814cb80e1022e62da925433344d0a4e86287c1",
+    "/runtime-es2015.75e37fb99ed3d77a1ce5.js": "872a611751501958c59a583964d5b7321a0732a4",
+    "/runtime-es5.75e37fb99ed3d77a1ce5.js": "b852254f696be3db08f63f3642efae5b85c39b9f",
+    "/styles.d9dc716df0c684d997ec.css": "26453d47ec36430b523ace93361172ee2488aa30"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
